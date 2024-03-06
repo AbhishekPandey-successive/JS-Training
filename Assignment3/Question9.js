@@ -1,5 +1,5 @@
 // Question9:
-function fibonacci(num) {
+function fiboNacci(num) {
     let num1 = 0;
     let num2 = 1;
     let sum;
@@ -12,4 +12,4 @@ function fibonacci(num) {
     return num2;
 }
  
-console.log("Fibonacci(5): " + fibonacci(5));
+console.log("Fibonacci(5): " + fiboNacci(5));
