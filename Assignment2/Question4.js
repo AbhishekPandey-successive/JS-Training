@@ -1,10 +1,10 @@
 // Function Expression which takes a number and Return square of Number:
 
-const myfunc=function(value)
+const myFunc=function(value)
 {
     return value*value;
 }
 
-const answer=myfunc(2);
+const answer=myFunc(2);
 
 console.log(answer);
