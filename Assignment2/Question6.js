@@ -14,4 +14,4 @@ const checkEvenOdd=function(value)
 
 
 
-console.log(checkevenodd(20));
+console.log(checkEvenOdd(20));
