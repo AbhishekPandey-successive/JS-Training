@@ -20,30 +20,30 @@ parentFunction(childFunction)
 
 // Question 4:
 
-const myfunc1=(value)=>
+const myFunc1=(value)=>
 {
     return value*value;
 }
 
-const answer=myfunc(2);
+const answer=myFunc1(2);
 
 console.log(answer);
 
 
 // Question 5:
 
-const myfunc2=(val1,val2)=>
+const myFunc2=(val1,val2)=>
 {
     return val1+val2;
 }
 
-const answer1=myfunc(2,3);
+const answer1=myFunc2(2,3);
 console.log(answer1);
 
 
 // Question 6:
 
-const checkevenodd=(value)=>
+const checkEvenOdd=(value)=>
 {
     if(value%2)
     {
@@ -56,5 +56,5 @@ const checkevenodd=(value)=>
 }
 
 
-const answer2=myfunc(20);
+const answer2=checkEvenOdd(20);
 console.log(answer2);
