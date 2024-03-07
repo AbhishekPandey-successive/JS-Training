@@ -8,13 +8,14 @@ function isInverse(arr)
             return false;
         }
 
-        else{
-            return true;
-        }
+       
     }
+    
+        return true;
+    
 }
 
-var arr=[1,2,3,4,5];
+var arr=[3, 4, 2, 0, 1];
 
 if(isInverse(arr))
 {

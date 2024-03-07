@@ -1,13 +1,16 @@
 // Question 5:
 
-let string1="hello john doe"
+let str = 'hello john doe';
+ 
+function camelCase(str) {
 
-for(let i=0;i<string1.length;i++)
-{
-    if(string1[i]=='')
-    {
-        string1[i+1].toUpperCase()
-    }
+    let ans = str.toLowerCase();
+ 
+    
+    return ans.split(" ").reduce((s, c) => s
+        + (c.charAt(0).toUpperCase() + c.slice(1)));
+ 
 }
+ 
 
-console.log(string1.trim())
+    console.log(camelCase(str));
