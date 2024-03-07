@@ -8,10 +8,11 @@ function isInverse(arr)
             return false;
         }
 
-        else{
-            return true;
-        }
     }
+
+    
+            return true;
+        
 }
 
 var arr=[1,2,3,4,5];
