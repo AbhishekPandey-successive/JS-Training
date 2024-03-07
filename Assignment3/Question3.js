@@ -1,33 +1,40 @@
 // Question 3:
 
-let count = 6;
-let countStar = 1;
-for (let i = 0; i < 4; i++){
-    let str = "";
-    for (let j = 0; j < count; j++){
-        str+= " ";
+// Pattern 2:
+
+ let n=4;
+let count=1;
+let string="";
+
+for(let i=1;i<=n;i++)
+{
+    for(let j=1;j<=i;j++)
+    {
+        string +=count;
+        count++;
     }
-    for (let k = 0; k < countStar; k++){
-        str+= "* ";
-    }
-    console.log(str);
-    countStar+=2;
-    count-=2;
+    console.log(string)
     
+    string="";
 }
 
-countStar-=4
-count+=4
-for (let i = 0; i < 5; i++){
-    let str = "";
-    for (let j = 0; j < count; j++){
-        str+= " ";
+
+
+// Pattern 1:
+
+let n=4;
+
+let string="";
+
+for(let i=1;i<=n;i++)
+{
+    let count=i;
+    for(let j=1;j<=i;j++)
+    {
+        string +=count;
+        
     }
-    for (let k = 0; k < countStar; k++){
-        str+= "* ";
-    }
-    console.log(str);
-    countStar-=2;
-    count+=2;
+    console.log(string)
     
+    string="";
 }
