@@ -1,40 +1,52 @@
 // Question 3:
 
-// Pattern 2:
 
- let n=4;
-let count=1;
-let string="";
-
-for(let i=1;i<=n;i++)
-{
-    for(let j=1;j<=i;j++)
-    {
-        string +=count;
-        count++;
+function printDiamond(rows) {
+    if (rows % 2 === 0) {
+        rows++; 
     }
-    console.log(string)
-    
-    string="";
+
+    let midpoint = Math.floor(rows / 2);
+
+    for (let i = 0; i < rows; i++) {
+        let row = '';
+        for (let j = 0; j < rows; j++) {
+            if (Math.abs(midpoint - i) + Math.abs(midpoint - j) <= midpoint) {
+                row += '* ';
+            } else {
+                row += '  ';
+            }
+        }
+        console.log(row);
+    }
 }
 
+printDiamond(5); 
 
 
-// Pattern 1:
 
-let n=4;
 
-let string="";
 
-for(let i=1;i<=n;i++)
-{
-    let count=i;
-    for(let j=1;j<=i;j++)
-    {
-        string +=count;
-        
-    }
-    console.log(string)
-    
-    string="";
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
