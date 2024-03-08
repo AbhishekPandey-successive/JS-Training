@@ -1,4 +1,6 @@
-// Question4:
+// Write a program to convert given string to upperCase OR lowerCase
+
+
 
 let string1="hello world";
 console.log(string1.toUpperCase())

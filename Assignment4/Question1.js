@@ -1,5 +1,4 @@
-// Question1:
-
+// Write a program to remove duplicate charecters from a string ("Hello Yellow" => "Helo Yw")
 
 
 function removeDuplicates( s , n) {

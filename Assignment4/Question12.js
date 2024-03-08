@@ -1,4 +1,4 @@
-// Question12.js
+// Question12.js:  Write a program to display intersection of two array
 
 let array1=[2,3,6,8,10,12,5];
 let array2=[5,6,4,3,9,8,2,10];

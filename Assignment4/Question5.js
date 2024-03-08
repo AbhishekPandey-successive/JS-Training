@@ -1,4 +1,5 @@
-// Question 5:
+//  Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
+
 
 let str = 'hello john doe';
  
@@ -13,4 +14,4 @@ function camelCase(str) {
 }
  
 
-    console.log(camelCase(str));
+ console.log(camelCase(str));
