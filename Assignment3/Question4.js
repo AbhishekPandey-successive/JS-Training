@@ -1,21 +1,22 @@
-// Question 4;
+// Question 4 : In Multiple Iteration
+letN=100
 
-let n=100;
-const evenArray=[];
-const oddArray=[];
-
-for(let i=1;i<=100;i++)
-{
-    if(i%2==0)
+for(let i=1;i<=N;i++)
     {
-        evenArray.push(i);
+        if(i%2==0)
+        {
+            console.log(i)
+        }
     }
 
-    else{
-        oddArray.push(i);
+
+for(let i=1;i<=N;i++)
+    {
+        if(i%2!=0)
+        {
+            console.log(i)
+        }
     }
-}
 
 
-const finalArray=evenArray.concat(oddArray)
-console.log(finalArray);
+
