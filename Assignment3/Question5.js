@@ -1,18 +1,21 @@
-// Question 5:
+// Question 5: In Single Iteration
 
-let array1=[2];
-let array2=[1];
+let n=100;
+const evenArray=[];
+const oddArray=[];
 
-for(let i=3;i<=100;i++)
+for(let i=1;i<=100;i++)
 {
     if(i%2==0)
     {
-        array1.push(i)
+        evenArray.push(i);
     }
+
     else{
-        array2.push(i)
+        oddArray.push(i);
     }
 }
 
-console.log(array1);
-console.log(array2);
+
+const finalArray=evenArray.concat(oddArray)
+console.log(finalArray)
