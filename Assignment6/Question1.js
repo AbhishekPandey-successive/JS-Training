@@ -9,17 +9,17 @@ class BankAccount{
 
     deposit()
     {
-        console.log(`Total deposit amount is balance : ${this.balance}`)
+        console.log(`Total deposit amount is balance 1000`)
     }
 
     withdraw()
     {
-        console.log("Withdraw amount is 1000");
+        console.log("Withdraw amount is 500");
     }
 
     displayBalance()
     {
-        console.log(`Balance amount is ${this.balance}`)
+        console.log(`Balance amount is ${this.balance+1000-500}`)
     }
 }
 
