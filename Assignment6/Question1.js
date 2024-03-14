@@ -4,18 +4,18 @@
 class BankAccount {
 
     constructor(balance) {
-      this.balance = balance;
+      this._balance = balance;
       console.log(`Opening Balance: $${balance}`);
     }
   
     deposit(amount) {
-      this.balance += amount;
+      this._balance += amount;
       console.log(`Deposited: $${amount}`);
     }
   
     withdraw(amount) {
-      if (amount <= this.balance) {
-        this.balance -= amount;
+      if (amount <= this._balance) {
+        this._balance -= amount;
         console.log(`Withdrawn: $${amount}`);
       } else {
         console.log(`Want to withdraw: $${amount}`);
@@ -24,7 +24,7 @@ class BankAccount {
     }
   
     displayBalance() {
-      console.log(`Account Balance: $${this.balance}`);
+      console.log(`Account Balance: $${this._balance}`);
     }
   }
   
